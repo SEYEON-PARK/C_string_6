@@ -3,7 +3,7 @@
 
 int main(void)
 {
-	char a[30] = "¾È³ç.", b[30] = "¾È³çÇÏ¼¼¿ä.";
+	char a[30] = "ì•ˆë…•.", b[30] = "ì•ˆë…•í•˜ì„¸ìš”.";
 	printf("%d\n", strncmp(a, b, 2));
 
 	return 0;
